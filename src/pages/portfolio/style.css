@@ -1,0 +1,91 @@
+.po_items_ho {
+	column-width: 15em;
+	-moz-column-width: 15em;
+	-webkit-column-width: 15em;
+	column-gap: 4rem;
+	-moz-column-gap: 4rem;
+	-webkit-column-gap: 4rem;
+}
+
+.po_item {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	margin: 0.5rem auto;
+	position: relative;
+	background: var(--secondary-color);
+	padding: 6px;
+	border: 1px solid var(--secondary-color);
+	transition: 0.3s ease;
+	font-size: 0;
+	min-height: 300px;
+	font-family: "Bodoni";
+}
+
+.po_item img {
+	max-width: 100%;
+	display: block;
+	width: 100%;
+	height: auto;
+	filter: grayscale(100%);
+	transition: filter 0.5s ease;
+}
+
+.po_item .content {
+	position: absolute;
+	height: 0;
+	width: 0;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	transition: 0.3s ease-in-out;
+	opacity: 0;
+	border: 1px solid #fff;
+}
+
+.po_item .content {
+	opacity: 0;
+	transition-delay: 1s;
+	transition: 0.3s ease;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+.po_item:hover .content {
+	height: calc(100% - 30px);
+	width: calc(100% - 30px);
+	background-color: rgba(253, 251, 251, 0.541);
+	opacity: 1;
+}
+
+.po_item .content :hover {
+	opacity: 1;
+	color: #000;
+}
+
+.po_item:hover img {
+	filter: grayscale(0%);
+}
+
+.po_item .content a {
+	padding: 4px 8px;
+	text-align: center;
+	font-size: 1rem;
+	color: #fff;
+	text-decoration: none;
+	background-color: var(--secondary-color);
+	font-weight: 500;
+	font-family: "Helvetica";
+	text-transform: capitalize;
+}
+
+.po_item .content a:hover {
+	text-decoration: none;
+}
