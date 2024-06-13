@@ -32,6 +32,7 @@
 }
 
 .po_item .content {
+	padding: 2rem;
 	position: absolute;
 	height: 0;
 	width: 0;
@@ -52,10 +53,12 @@
 
 .po_item .content {
 	opacity: 0;
+	padding: 2rem;
 	transition-delay: 1s;
 	transition: 0.3s ease;
 	font-size: 20px;
 	font-weight: 800;
+	word-wrap: break-word;
 }
 
 .po_item:hover .content {

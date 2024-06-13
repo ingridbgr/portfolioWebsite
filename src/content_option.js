@@ -15,7 +15,7 @@ const introdata = {
         third: "Website Expert",
         forth: "Artist",
     },
-    description: "Create is my passion, when my hands are working my mind gets silent. Here is where I share a little bit of what my hands have been doing, in engineering and artistic works",
+    description: "Create is my passion, when my hands are working my mind gets silent. Here is where I share a little bit of what my hands have been doing, in engineering and artistic works.",
     img_path: images.image1,
 };
 
@@ -110,7 +110,7 @@ const dataportfolio = [
     },
     {
         img: images.portfolio5,
-        description: "Survey Marketing Research Platform development (Pure Spectrum Insights).",
+        description: "Survey Marketing Research Platform development (Pure Spectrum Insights)",
         link: "https://www.purespectrum.com/insights/",
     },
     {
