@@ -10,6 +10,7 @@ import portfolio7 from './ballet.png';
 import portfolio8 from './gorilla.png';
 import portfolio9 from './thiswebsite.png';
 import portfolio10 from './newsletter.png';
+import portfolio11 from './phonemockup.png';
 
 export const images = {
     image1,
@@ -24,4 +25,5 @@ export const images = {
     portfolio8,
     portfolio9,
     portfolio10,
+    portfolio11,
 }
