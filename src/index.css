@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'Bochan Serif';
+	src: url('assets/fonts/bochan_serif-webfont.woff2') format('woff2');
+}
+
 :root {
 	--bg-color: #ffffff;
 	--primary-color: #ffffff;
@@ -19,6 +24,7 @@
 	--text-color-3: #638162;
 	--overlay-color: rgb(12 12 12 / 63%);
 }
+
 
 html,
 body {
@@ -50,7 +56,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "bodoni moda";
+	font-family: "Bochan Serif";
 }
 
 a,
@@ -73,7 +79,7 @@ p {
 }
 
 code {
-	font-family: "Bodoni";
+	font-family: "Bochan Serif";
 }
 
 .cursor__dot div {
