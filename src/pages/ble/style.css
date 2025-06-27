@@ -1,0 +1,14 @@
+.center-column {
+      display: flex;
+     
+      gap: 10px; /* space between buttons */
+      width: max-content;
+    }
+
+       .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;     
+       flex-direction: column;
+      height: 100vh;          
+    }

@@ -150,6 +150,24 @@ const contactConfig = {
     // YOUR_USER_ID: "user_id",
 };
 
+const connectData = {
+    title: "Hi again!",
+    subtitle: " what brings you here today? ", 
+    button1title: "I want to hire your services - Illustration, social media",
+    button1link: "https://notingrid.com/", 
+     button2title: "I want to see your website",
+    button2link: "https://www.ingridguntendorfer.com/", 
+     button3title: "I met you at the Ghent Special Convention",
+    button3link: "https://www.ingridguntendorfer.com/bestlifeever", 
+     button4title: "I am just curious",
+    button4link: "https://www.ingridguntendorfer.com/contact/", 
+};
+
+const bestLifeEver = {
+    title: "What a joy to have you here",
+    description: "You arrived too early! This page is still under construction. Ingrid is busy finishing it, please check later!"
+}
+
 const socialprofils = {
     github: "https://github.com/ingridbgr",
     instagram: "https://www.instagram.com/in.codes",
@@ -159,9 +177,11 @@ export {
     meta,
     dataabout,
     dataportfolio,
+    bestLifeEver,
     worktimeline,
     skills,
     services,
+    connectData,
     introdata,
     contactConfig,
     socialprofils,
