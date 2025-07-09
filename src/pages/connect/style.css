@@ -2,7 +2,7 @@
       display: flex;
       flex-direction: column;
       gap: 10px; /* space between buttons */
-      width: max-content;
+      align-items: center;
     }
 
     .button-column button {
@@ -14,7 +14,5 @@
     .center-container {
       display: flex;
       justify-content: center;
-      align-items: center;     
-      
-      height: 100vh;          
+      align-items: center;          
     }

@@ -142,7 +142,7 @@ const dataportfolio = [
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "ingridbgr@outlook.com",
+    YOUR_EMAIL: "ingridguntendorfer@gmail.com",
     YOUR_FONE: "(+32) 466 39 40 15",
     description: "If you want to hire me or get more information about my work feel free to send me a message :)",
     // YOUR_SERVICE_ID: "service_id",
@@ -153,19 +153,25 @@ const contactConfig = {
 const connectData = {
     title: "Hi again!",
     subtitle: " what brings you here today? ", 
-    button1title: "I want to hire your services - Illustration, social media",
-    button1link: "https://notingrid.com/", 
+    button1title: "I met you at the Ghent Special Convention",
+    button1link: "https://www.ingridguntendorfer.com/bestlifeever", 
+ 
      button2title: "I want to see your website",
     button2link: "https://www.ingridguntendorfer.com/", 
-     button3title: "I met you at the Ghent Special Convention",
-    button3link: "https://www.ingridguntendorfer.com/bestlifeever", 
+    button3title: "I want to hire your services - Illustration, social media",
+    button3link: "https://notingrid.com/", 
      button4title: "I am just curious",
     button4link: "https://www.ingridguntendorfer.com/contact/", 
 };
 
 const bestLifeEver = {
-    title: "What a joy to have you here",
-    description: "You arrived too early! This page is still under construction. Ingrid is busy finishing it, please check later!"
+    title: "What a joy to have you here!",
+    description: "I am assembling this page to share all the convention pictures I have, so soon you will see here many images, in the mean time, why don't we connect?",
+    instagraminvite: "Choose a way to connect:", 
+    whatsapp: 'https://wa.me/32466394915',
+  email: 'mailto:ingridguntendorfer@gmail.com', 
+  instagram:'https://www.instagram.com/ingridissima',
+
 }
 
 const socialprofils = {

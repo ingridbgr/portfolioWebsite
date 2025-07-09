@@ -1,14 +1,97 @@
 .center-column {
-      display: flex;
-     
-      gap: 10px; /* space between buttons */
-      width: max-content;
-    }
+  display: flex;
+text-align: center;
+  gap: 10px;
+  /* space between buttons */
+  width: fit-content;
+}
 
-       .center-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;     
-       flex-direction: column;
-      height: 100vh;          
-    }
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.center-container h2, h4 {
+  Margin: 1rem 0;
+  text-align: center;
+}
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+  padding: 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Horizontal images span 4 columns */
+.item-h {
+  grid-column: span 6;
+}
+
+@media (min-width: 768px) {
+  .item-h {
+    grid-column: span 4;
+  }
+
+  .item-v {
+    grid-column: span 2;
+  }
+}
+
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+  justify-content: center;
+}
+
+.social-buttons a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.social-buttons a:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+.social-buttons svg {
+  font-size: 16px;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ddd;
+
+}

@@ -1,6 +1,6 @@
 
 import "./style.css";
-import { connectData, meta } from "../../content_option";
+import { connectData, bestLifeEver } from "../../content_option";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
@@ -13,6 +13,7 @@ export const Connect = () => {
                 <meta charSet="utf-8" />
                 <title> {connectData.title}</title>
                 <meta name="description" content={connectData.description} />
+                
                 <div class="button-column" >
                            <a href={connectData.button1link}>
                     <button className="btn ac_btn" type="submit">
@@ -36,6 +37,7 @@ export const Connect = () => {
                     </button>
                     </a>
                 </div>
+
             </div>
         </Container>
 
