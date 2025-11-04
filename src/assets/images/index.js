@@ -1,6 +1,6 @@
 import image1 from './homeimage.png';
 import image2 from './aboutme.png';
-import portfolio1 from './ddx3x.png';
+import portfolio1 from './portfolio1.png';
 import portfolio2 from './arteNete.png';
 import portfolio3 from './hp.png';
 import portfolio4 from './queen.png';

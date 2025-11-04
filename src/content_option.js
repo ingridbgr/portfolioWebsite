@@ -3,16 +3,16 @@ import { images } from './assets/images/index';
 const logotext = "Ingrid";
 const meta = {
     title: "Ingrid Guntendorfer",
-    description: "I’m Ingrid _ Frontend Engineer/ UI UX expert, currently working in Antwerp",
+    description: "I’m Ingrid _ Lead Creative Director in Brussels - Belgium",
 };
 
 
 const introdata = {
     title: "I am Ingrid",
     animated: {
-        first: "Frontend Engineer",
-        second: "UI UX designer",
-        third: "Website Expert",
+        first: "Creative Director",
+        second: "Graphic designer",
+        third: "2D illustrator and animator",
         forth: "Artist",
     },
     description: "Create is my passion, when my hands are working my mind gets silent. Here is where I share a little bit of what my hands have been doing, in engineering and artistic works.",
@@ -21,17 +21,21 @@ const introdata = {
 
 const dataabout = {
     title: "Who am I?",
-    aboutme: "I am an Italian/Brazilian Engineer that already worked as UI/UX engineer and also as Frontend and Fullstack. I'm 27 and I currently live in Brussels. I am a native portuguese speaker but I also speak English fluently and French professionally. All of my works were private and I cannot share the prototypes on figma here, but the websites and demos of the products I worked with are in my",
+    aboutme: "I am an Italian/Brazilian Engineer that already worked as UI/UX engineer and also as Frontend and Fullstack but now is fully dedicated as a Designer. I was always passionate about design and after working in different aspects of design I current work in taking creative decisions for communications and design for European Institutions. I'm 29 and I currently live in Brussels. I am a native portuguese speaker but I also speak English fluently and French professionally. All of my works were private and I cannot share the prototypes on figma here, but the websites and demos of the products I worked with are in my portfolio. I choose to share only 4 projects here and the rest in my personal freelancer page Not In Grid. ",
     link: "/portfolio",
 };
 const worktimeline = [{
+    jobtitle: "Lead Creative Designer",
+    where: "INEXTREMIS (Brussels - BE)",
+    date: "2025 - present",
+},{
     jobtitle: "Frontend Engineer",
     where: "GORILLA (Antwerp - BE)",
-    date: "2023 - present",
+    date: "2023 - 2024",
 },
 {
     jobtitle: "UI UX designer",
-    where: "3DSide ( - BE)",
+    where: "3DSide ( Louvain-la-neuve - BE)",
     date: "2022-2023",
 },
 {
@@ -59,12 +63,16 @@ const skills = [{
     value: 100,
 },
 {
-    name: "CSS/SASS/Bootstrap",
+    name: "Digital art and illustration",
     value: 100,
 },
 {
-    name: "Python",
-    value: 65,
+    name: "Adobe products (photoshop, inDesign, AdobeXD)",
+    value: 100,
+},
+{
+    name: "Animation in 2D",
+    value: 85,
 },
 ];
 
@@ -84,24 +92,11 @@ const services = [{
 
 const dataportfolio = [
     {
-        img: images.portfolio7,
-        description: "Ballet Company Website that I help develop",
-        link: "https://philadelphiaballet.org/",
-    },
-    {
-        img: images.portfolio3,
-        description: "Website development that I did with the team for Warner Bros Harry Potter Event",
-        link: "https://harrypotterexhibition.com/",
-    },
-    {
-        img: images.portfolio2,
-        description: "Artistical Painting on Figma Tailormade for my ETSY store",
-        link: "https://www.figma.com/proto/3YKnlKszhZL67TskXVaplO/Poster-Mockup-(Community)?page-id=0%3A1&node-id=1-4&viewport=301%2C208%2C0.08&t=RuaUizIldWVSSPlK-1&scaling=min-zoom",
-    },
-    {
         img: images.portfolio1,
-        description: "Website Development for a non-profit organization that I coordinate",
+        title:"Women of Eumeps",
+        description: "A campaign to reinforce the women force in the European EPS industry",
         link: "https://ddx3x.org/",
+        tags: ['creative direction','graphic design', 'social media strategy']
     },
     {
         img: images.portfolio11,
@@ -145,9 +140,9 @@ const contactConfig = {
     YOUR_EMAIL: "ingridguntendorfer@gmail.com",
     YOUR_FONE: "(+32) 466 39 40 15",
     description: "If you want to hire me or get more information about my work feel free to send me a message :)",
-    // YOUR_SERVICE_ID: "service_id",
-    // YOUR_TEMPLATE_ID: "template_id",
-    // YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_9mxz21a",
+    YOUR_TEMPLATE_ID: "template_u7jeaa5",
+    YOUR_USER_ID: "iM811GAHKInmlpiUN",
 };
 
 const connectData = {
@@ -160,7 +155,7 @@ const connectData = {
     button2link: "https://www.ingridguntendorfer.com/", 
     button3title: "I want to hire your services - Illustration, social media",
     button3link: "https://notingrid.com/", 
-     button4title: "I am just curious",
+    button4title: "I am just curious",
     button4link: "https://www.ingridguntendorfer.com/contact/", 
 };
 
@@ -179,6 +174,18 @@ const socialprofils = {
     instagram: "https://www.instagram.com/in.codes",
     linkedin: "https://www.linkedin.com/in/ingridbgr/",
 };
+
+export const projects = [
+  {
+    slug: "project-1",
+    title: "Project One",
+    summary: "Short teaser…",
+    cover: "/assets/project1.jpg",
+    content: "<p>Detailed write-up…</p>",
+    tech: ["React", "Node"],
+    links: { live: "https://example.com", repo: "https://github.com/you/project-1" }
+  },
+];
 export {
     meta,
     dataabout,
