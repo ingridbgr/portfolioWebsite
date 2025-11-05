@@ -102,7 +102,7 @@ export const Portfolio = () => {
 
           <a
             className="see-more-btn"
-            href="https://yourfreelancerwebsite.com"  // <-- change this URL
+            href="https://www.notingrid.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
