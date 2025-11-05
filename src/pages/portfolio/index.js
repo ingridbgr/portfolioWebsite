@@ -95,7 +95,7 @@ export const Portfolio = () => {
 
         <div className="portfolio-actions">
           <p className="freelance-text">
-          I am currently the Lead Creative Designer of <Link to={`https://inextremis.be/`}>inextremis</Link> <br/> agency but I also work as a freelancer. <br />
+          I am currently the Lead Creative Designer of <a href={`https://inextremis.be/`}>inextremis</a> <br/> agency but I also work as a freelancer. <br />
           If you are interested in knowing how you can work with me check out my freelancer website, Not In Grid. 
           
           </p>
